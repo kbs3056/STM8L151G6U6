@@ -1,0 +1,2 @@
+# STM8L151G6U6
+STM8L151G6U6 development board.
