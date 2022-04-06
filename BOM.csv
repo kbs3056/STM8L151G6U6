@@ -1,0 +1,26 @@
+Reference, Quantity, Value, Footprint,
+C1 C3 ,2,10u,Capacitor_SMD:C_1206_3216Metric,
+C2 ,1,10n,Capacitor_SMD:C_0805_2012Metric,
+C4 C5 ,2,22p,Capacitor_SMD:C_0805_2012Metric,
+C6 C7 ,2,12p,Capacitor_SMD:C_0805_2012Metric,
+C8 ,1,1u,Capacitor_SMD:C_1206_3216Metric,
+C9 C10 C11 ,3,100n,Capacitor_SMD:C_0805_2012Metric,
+D1 ,1,D_Schottky,Diode_SMD:D_MiniMELF,Vr=20V If=100mA Vf=0.3V
+D2 D3 D4 ,3,LED,LED_SMD:LED_0805_2012Metric,
+J1 ,1,PWR_MCU,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,Current measure connector. Shorted in normal operation
+J11 ,1,SWIM,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,
+J12 ,1,I²C,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,
+J13 J14 J15 ,3,pwr,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,
+J2 ,1,PWR_EEP,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,Current measure connector. Shorted in normal operation
+J5 J6 J7 J8 J9 J10 ,6,C,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,
+R1 R6 ,2,1k,Resistor_SMD:R_1206_3216Metric,
+R2 ,1,4k7,Resistor_SMD:R_1206_3216Metric,
+R3 ,1,opt,Resistor_SMD:R_1206_3216Metric,
+R4 R5 ,2,3k6,Resistor_SMD:R_1206_3216Metric,
+SW1 SW2 ,2,SW,Button_Switch_SMD:SW_SPST_CK_RS282G05A3,
+U1 ,1,LP2985-3.3,Package_TO_SOT_SMD:SOT-23-5,Or similar
+U2 ,1,STM8L151G6U6,Package_DFN_QFN:QFN-28_4x4mm_P0.5mm,"STM8L151GxUx, STM8L152GxUx, other devices are not fully compatible (STM8L101G3U6ATR and
+STM8L101G2U6ATR - PA5 is replaced by PA6 pin, STM8L101GxUx – no external oscillators)"
+U3 ,1,24Cxx,Package_SO:SOIC-8_5.23x5.23mm_P1.27mm,Optional
+Y1 ,1,Crystal,Crystal:Crystal_HC49-U_Horizontal,"Optional, with heat shrink insulation if mounted horizontally"
+Y2 ,1,Crystal,Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal,Optional
